@@ -1,0 +1,64 @@
+[
+  {
+    "id": "A",
+    "background": "#FFFFFF",
+    "name": "Delicious Bubble Tea"
+  },
+  {
+    "id": "B",
+    "background": "#dec69c",
+    "name": "Clever Title"
+  },
+  {
+    "id": "C",
+    "background": "#f7d117",
+    "name": "The Lawn Mower"
+  },
+  {
+    "id": "D",
+    "background": "#FF7E14",
+    "name": "Run of the Cards"
+  },
+  {
+    "id": "E",
+    "background": "#b30006",
+    "name": "Caesar"
+  },
+  {
+    "id": "F",
+    "background": "#00642e",
+    "name": "Nine Knights"
+  },
+  {
+    "id": "G",
+    "background": "#0057a6",
+    "name": "Go Northwest!"
+  },
+  {
+    "id": "H",
+    "color": "#fff",
+    "background": "#532115",
+    "name": "Die"
+  },
+  {
+    "id": "I",
+    "background": "#9c9c9c",
+    "name": "Security Guards"
+  },
+  {
+    "id": "J",
+    "background": "#6b5a5a",
+    "name": "You Are Fired!"
+  },
+  {
+    "id": "K",
+    "color": "#fff",
+    "background": "#212121",
+    "name": "Pants on Fire"
+  },
+  {
+    "id": "L",
+    "background": "#EEEEEE",
+    "name": "Common Knowledge"
+  }
+]
