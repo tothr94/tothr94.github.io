@@ -102,6 +102,9 @@ app.controller("scoreboardCtrl", function ($scope) {
 
             const count = teamData.frozenData[exerciseIndex].count + teamData.finalData[exerciseIndex].count;
             const time = teamData.finalData[exerciseIndex].status === 'ACCEPTED' ? teamData.frozenData[exerciseIndex].time + teamData.finalData[exerciseIndex].time : 0;
+            if (teamData.frozenData[exerciseIndex].status === 'UNKNOWN') {
+                team.tried++;
+            }
 
             teamData.finalData[exerciseIndex].finished = true;
             if (unFinishedExercises.length === 1) {
@@ -179,7 +182,12 @@ app.controller("scoreboardCtrl", function ($scope) {
                 return b.partly_solved - a.partly_solved;
             }
 
-            return a.time - b.time;
+            if (a.time !== b.time) {
+                return a.time - b.time;
+            }
+
+            console.log(b.tried + " " + a.tried)
+            return b.tried - a.tried;
         });
 
         for (let i = 0; i < teams.length; i++) {
@@ -224,6 +232,7 @@ app.controller("scoreboardCtrl", function ($scope) {
                     team.solved = 0;
                     team.partly_solved = 0;
                     team.time = 0;
+                    team.tried = 0;
 
                     contestData[team.name].frozenData.forEach(exercise => {
                         if (exercise.status === 'ACCEPTED') {
@@ -231,6 +240,10 @@ app.controller("scoreboardCtrl", function ($scope) {
                             team.time += exercise.time;
                         } else if (exercise.status === 'PARTLY_SOLVED') {
                             team.partly_solved++;
+                        }
+
+                        if (exercise.count > 0) {
+                            team.tried++;
                         }
                     });
 

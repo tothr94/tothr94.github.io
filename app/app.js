@@ -1,5 +1,5 @@
 var app = angular.module(
-    "LegoViz",
+    "app",
     ["ngResource", "ngSanitize", "ngRoute", "ui.bootstrap"]
 );
 
