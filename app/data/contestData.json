@@ -1,1 +1,3227 @@
-{"01000101":{"id":"01000101","name":"01000101","finalData":[{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":333,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":40,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":4,"time":80,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":106,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":9,"time":180,"status":"PARTLY_ACCEPTED"},{"count":1,"time":113,"status":"ACCEPTED"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":3,"time":104,"status":"ACCEPTED"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":1,"time":198,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":183,"status":"ACCEPTED"}]},"403 Forbidden":{"id":"403 Forbidden","name":"403 Forbidden","finalData":[{"count":3,"time":60,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":60,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":5,"time":100,"status":"PARTLY_ACCEPTED"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":26,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"42":{"id":"42","name":"42","finalData":[{"count":4,"time":80,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":4,"time":80,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":56,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":211,"status":"ACCEPTED"},{"count":4,"time":281,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":4,"time":80,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Answer":{"id":"Answer","name":"Answer","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"REJECTED"},{"count":2,"time":271,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":4,"time":80,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":3,"time":199,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":102,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":1,"time":66,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":60,"status":"PARTLY_ACCEPTED"},{"count":1,"time":20,"status":"REJECTED"},{"count":1,"time":83,"status":"ACCEPTED"}]},"Az IB Java":{"id":"Az IB Java","name":"Az IB Java","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":90,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":113,"status":"ACCEPTED"},{"count":1,"time":157,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":169,"status":"ACCEPTED"},{"count":1,"time":20,"status":"REJECTED"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"BinSystem":{"id":"BinSystem","name":"BinSystem","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":5,"time":100,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":6,"time":120,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":155,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":179,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Bolond Bitek":{"id":"Bolond Bitek","name":"Bolond Bitek","finalData":[{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":2,"time":40,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":103,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":51,"status":"ACCEPTED"},{"count":1,"time":98,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":64,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":4,"time":241,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Cerberus":{"id":"Cerberus","name":"Cerberus","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":1,"time":52,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":216,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":189,"status":"ACCEPTED"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":104,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":257,"status":"ACCEPTED"}]},"Dinkster Daily":{"id":"Dinkster Daily","name":"Dinkster Daily","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":40,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Error 404 Squad":{"id":"Error 404 Squad","name":"Error 404 Squad","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":301,"status":"ACCEPTED"}],"frozenData":[{"count":1,"time":153,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":82,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":65,"status":"ACCEPTED"},{"count":1,"time":39,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":108,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":208,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Error404":{"id":"Error404","name":"Error404","finalData":[{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":60,"status":"PARTLY_ACCEPTED"},{"count":3,"time":60,"status":"REJECTED"},{"count":3,"time":287,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":219,"status":"ACCEPTED"},{"count":5,"time":100,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"KGHSZ":{"id":"KGHSZ","name":"KGHSZ","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":40,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":60,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":4,"time":268,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":132,"status":"ACCEPTED"},{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"MaFia":{"id":"MaFia","name":"MaFia","finalData":[{"count":2,"time":301,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":78,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":7,"time":305,"status":"ACCEPTED"},{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":164,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Muchkin":{"id":"Muchkin","name":"Muchkin","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":304,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":7,"time":249,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"No Time Limit":{"id":"No Time Limit","name":"No Time Limit","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":2,"time":88,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":66,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":19,"status":"ACCEPTED"},{"count":1,"time":59,"status":"ACCEPTED"},{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":3,"time":145,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":119,"status":"ACCEPTED"},{"count":1,"time":163,"status":"ACCEPTED"},{"count":2,"time":106,"status":"ACCEPTED"}]},"P0L05K4":{"id":"P0L05K4","name":"P0L05K4","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"ProgTrio":{"id":"ProgTrio","name":"ProgTrio","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":62,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":8,"time":160,"status":"PARTLY_ACCEPTED"},{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":60,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Switchecskék":{"id":"Switchecskék","name":"Switchecskék","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Szovjetunió":{"id":"Szovjetunió","name":"Szovjetunió","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":3,"time":60,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":209,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":122,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"Sztekkovefloo":{"id":"Sztekkovefloo","name":"Sztekkovefloo","finalData":[{"count":1,"time":241,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":2,"time":40,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":19,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":129,"status":"ACCEPTED"},{"count":2,"time":104,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":99,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":270,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":158,"status":"ACCEPTED"}]},"TryKeccs":{"id":"TryKeccs","name":"TryKeccs","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":60,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":60,"status":"PARTLY_ACCEPTED"},{"count":1,"time":291,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":8,"time":303,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":112,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":75,"status":"ACCEPTED"},{"count":1,"time":157,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":123,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":60,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":208,"status":"ACCEPTED"}]},"Windows Update":{"id":"Windows Update","name":"Windows Update","finalData":[{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":40,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":2,"time":104,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":52,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":67,"status":"ACCEPTED"},{"count":3,"time":176,"status":"ACCEPTED"},{"count":4,"time":80,"status":"PARTLY_ACCEPTED"},{"count":1,"time":80,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":5,"time":271,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":107,"status":"ACCEPTED"}]},"fsociety":{"id":"fsociety","name":"fsociety","finalData":[{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":5,"time":100,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":124,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":5,"time":262,"status":"ACCEPTED"},{"count":2,"time":76,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":152,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"pythonprogram":{"id":"pythonprogram","name":"pythonprogram","finalData":[{"count":2,"time":312,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":4,"time":344,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":313,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}],"frozenData":[{"count":6,"time":120,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":4,"time":243,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":12,"time":427,"status":"ACCEPTED"},{"count":5,"time":100,"status":"PARTLY_ACCEPTED"},{"count":1,"time":20,"status":"REJECTED"},{"count":8,"time":160,"status":"PARTLY_ACCEPTED"},{"count":1,"time":20,"status":"REJECTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]},"sin(g*l*E)*s":{"id":"sin(g*l*E)*s","name":"sin(g*l*E)*s","finalData":[{"count":4,"time":80,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":253,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":3,"time":316,"status":"ACCEPTED"}],"frozenData":[{"count":1,"time":20,"status":"PARTLY_ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":1,"time":140,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":224,"status":"ACCEPTED"},{"count":1,"time":164,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":2,"time":140,"status":"ACCEPTED"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"},{"count":0,"time":0,"status":"NOTHING"}]}}
+{
+  "01000101": {
+    "name": "01000101",
+    "finalData": [
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 334,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 4,
+        "time": 80,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 107,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 9,
+        "time": 180,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 114,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 3,
+        "time": 105,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 199,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 184,
+        "status": "ACCEPTED"
+      }
+    ],
+    "finalFirstAcceptedTime": 105,
+    "frozenFirstAcceptedTime": 105
+  },
+  "403 Forbidden": {
+    "name": "403 Forbidden",
+    "finalData": [
+      {
+        "count": 3,
+        "time": 60,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 5,
+        "time": 100,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 27,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 27,
+    "frozenFirstAcceptedTime": 27
+  },
+  "42": {
+    "name": "42",
+    "finalData": [
+      {
+        "count": 4,
+        "time": 80,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 4,
+        "time": 80,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 57,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 212,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 4,
+        "time": 282,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 4,
+        "time": 80,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 57,
+    "frozenFirstAcceptedTime": 57
+  },
+  "Answer": {
+    "name": "Answer",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 2,
+        "time": 272,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 4,
+        "time": 80,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 3,
+        "time": 200,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 103,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 67,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 1,
+        "time": 84,
+        "status": "ACCEPTED"
+      }
+    ],
+    "finalFirstAcceptedTime": 67,
+    "frozenFirstAcceptedTime": 67
+  },
+  "Az IB Java": {
+    "name": "Az IB Java",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 91,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 114,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 158,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 170,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 91,
+    "frozenFirstAcceptedTime": 91
+  },
+  "BinSystem": {
+    "name": "BinSystem",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 5,
+        "time": 100,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 6,
+        "time": 120,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 156,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 180,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 156,
+    "frozenFirstAcceptedTime": 156
+  },
+  "Bolond Bitek": {
+    "name": "Bolond Bitek",
+    "finalData": [
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 2,
+        "time": 40,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 104,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 52,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 99,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 65,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 4,
+        "time": 242,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 65,
+    "frozenFirstAcceptedTime": 65
+  },
+  "Cerberus": {
+    "name": "Cerberus",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 1,
+        "time": 53,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 217,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 190,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 105,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 258,
+        "status": "ACCEPTED"
+      }
+    ],
+    "finalFirstAcceptedTime": 53,
+    "frozenFirstAcceptedTime": 53
+  },
+  "Dinkster Daily": {
+    "name": "Dinkster Daily",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 100000000,
+    "frozenFirstAcceptedTime": 100000000
+  },
+  "Error 404 Squad": {
+    "name": "Error 404 Squad",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 302,
+        "status": "ACCEPTED"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 1,
+        "time": 154,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 83,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 66,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 40,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 109,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 209,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 40,
+    "frozenFirstAcceptedTime": 40
+  },
+  "Error404": {
+    "name": "Error404",
+    "finalData": [
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "REJECTED"
+      },
+      {
+        "count": 3,
+        "time": 288,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 220,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 5,
+        "time": 100,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 220,
+    "frozenFirstAcceptedTime": 220
+  },
+  "KGHSZ": {
+    "name": "KGHSZ",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 4,
+        "time": 269,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 133,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 133,
+    "frozenFirstAcceptedTime": 133
+  },
+  "MaFia": {
+    "name": "MaFia",
+    "finalData": [
+      {
+        "count": 2,
+        "time": 302,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 79,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 7,
+        "time": 306,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 165,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 79,
+    "frozenFirstAcceptedTime": 79
+  },
+  "Muchkin": {
+    "name": "Muchkin",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 305,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 7,
+        "time": 250,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 250,
+    "frozenFirstAcceptedTime": 250
+  },
+  "No Time Limit": {
+    "name": "No Time Limit",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 2,
+        "time": 89,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 67,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 60,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 3,
+        "time": 146,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 120,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 164,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 2,
+        "time": 107,
+        "status": "ACCEPTED"
+      }
+    ],
+    "finalFirstAcceptedTime": 20,
+    "frozenFirstAcceptedTime": 20
+  },
+  "P0L05K4": {
+    "name": "P0L05K4",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 100000000,
+    "frozenFirstAcceptedTime": 100000000
+  },
+  "ProgTrio": {
+    "name": "ProgTrio",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 63,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 8,
+        "time": 160,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 63,
+    "frozenFirstAcceptedTime": 63
+  },
+  "Switchecskék": {
+    "name": "Switchecskék",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 100000000,
+    "frozenFirstAcceptedTime": 100000000
+  },
+  "Szovjetunió": {
+    "name": "Szovjetunió",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 3,
+        "time": 60,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 210,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 123,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 123,
+    "frozenFirstAcceptedTime": 123
+  },
+  "Sztekkovefloo": {
+    "name": "Sztekkovefloo",
+    "finalData": [
+      {
+        "count": 1,
+        "time": 242,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 2,
+        "time": 40,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 130,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 2,
+        "time": 105,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 100,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 271,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 159,
+        "status": "ACCEPTED"
+      }
+    ],
+    "finalFirstAcceptedTime": 20,
+    "frozenFirstAcceptedTime": 20
+  },
+  "TryKeccs": {
+    "name": "TryKeccs",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 292,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 8,
+        "time": 304,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 113,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 76,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 158,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 124,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 60,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 209,
+        "status": "ACCEPTED"
+      }
+    ],
+    "finalFirstAcceptedTime": 76,
+    "frozenFirstAcceptedTime": 76
+  },
+  "Windows Update": {
+    "name": "Windows Update",
+    "finalData": [
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 40,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 2,
+        "time": 105,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 53,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 68,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 3,
+        "time": 177,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 4,
+        "time": 80,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 81,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 5,
+        "time": 272,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 108,
+        "status": "ACCEPTED"
+      }
+    ],
+    "finalFirstAcceptedTime": 53,
+    "frozenFirstAcceptedTime": 53
+  },
+  "fsociety": {
+    "name": "fsociety",
+    "finalData": [
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 5,
+        "time": 100,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 125,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 5,
+        "time": 263,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 2,
+        "time": 77,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 153,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 77,
+    "frozenFirstAcceptedTime": 77
+  },
+  "pythonprogram": {
+    "name": "pythonprogram",
+    "finalData": [
+      {
+        "count": 2,
+        "time": 313,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 4,
+        "time": 345,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 314,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 6,
+        "time": 120,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 4,
+        "time": 244,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 12,
+        "time": 428,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 5,
+        "time": 100,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 8,
+        "time": 160,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 20,
+        "status": "REJECTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 244,
+    "frozenFirstAcceptedTime": 244
+  },
+  "sin(g*l*E)*s": {
+    "name": "sin(g*l*E)*s",
+    "finalData": [
+      {
+        "count": 4,
+        "time": 80,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 254,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 3,
+        "time": 317,
+        "status": "ACCEPTED"
+      }
+    ],
+    "frozenData": [
+      {
+        "count": 1,
+        "time": 20,
+        "status": "PARTLY_ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 1,
+        "time": 141,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 225,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 1,
+        "time": 165,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 2,
+        "time": 141,
+        "status": "ACCEPTED"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      },
+      {
+        "count": 0,
+        "time": 0,
+        "status": "NOTHING"
+      }
+    ],
+    "finalFirstAcceptedTime": 141,
+    "frozenFirstAcceptedTime": 141
+  }
+}

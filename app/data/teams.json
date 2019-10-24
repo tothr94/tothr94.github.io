@@ -2,7 +2,12 @@
   {
     "id": "300769",
     "name": "fsociety",
-    "school": "Roxfort Boszorkány és Varázslóképző Szakiskola"
+    "school": "Roxfort Boszorkány és Varázslóképző Szakiskola",
+    "contestants": [
+      "Potter",
+      "Granger",
+      "Weasley"
+    ]
   },
   {
     "id": "300755",
