@@ -1,64 +1,86 @@
-[
-  {
-    "id": "A",
-    "background": "#FFFFFF",
-    "name": "Delicious Bubble Tea"
-  },
-  {
-    "id": "B",
-    "background": "#dec69c",
-    "name": "Clever Title"
-  },
-  {
-    "id": "C",
-    "background": "#f7d117",
-    "name": "The Lawn Mower"
-  },
-  {
-    "id": "D",
-    "background": "#FF7E14",
-    "name": "Run of the Cards"
-  },
-  {
-    "id": "E",
-    "background": "#b30006",
-    "name": "Caesar"
-  },
-  {
-    "id": "F",
-    "background": "#00642e",
-    "name": "Nine Knights"
-  },
-  {
-    "id": "G",
-    "background": "#0057a6",
-    "name": "Go Northwest!"
-  },
-  {
-    "id": "H",
-    "color": "#fff",
-    "background": "#532115",
-    "name": "Die"
-  },
-  {
-    "id": "I",
-    "background": "#9c9c9c",
-    "name": "Security Guards"
-  },
-  {
-    "id": "J",
-    "background": "#6b5a5a",
-    "name": "You Are Fired!"
-  },
-  {
-    "id": "K",
-    "color": "#fff",
-    "background": "#212121",
-    "name": "Pants on Fire"
-  },
-  {
-    "id": "L",
-    "background": "#EEEEEE",
-    "name": "Common Knowledge"
-  }
-]
+{
+  "priority": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "data": [
+    {
+      "id": "A",
+      "background": "white",
+      "name": "Delicious Bubble Tea"
+    },
+    {
+      "id": "B",
+      "background": "#ffff00",
+      "name": "Clever Title"
+    },
+    {
+      "id": "C",
+      "color": "white",
+      "background": "#FFA500",
+      "name": "The Lawn Mower"
+    },
+    {
+      "id": "D",
+      "color": "white",
+      "background": "#FF0000",
+      "name": "Run of the Cards"
+    },
+    {
+      "id": "E",
+      "background": "#FFC0CB",
+      "name": "Caesar"
+    },
+    {
+      "id": "F",
+      "color" : "white",
+      "background": "#DB7093",
+      "name": "Nine Knights"
+    },
+    {
+      "id": "G",
+      "color": "white",
+      "background": "#32CD32",
+      "name": "Go Northwest!"
+    },
+    {
+      "id": "H",
+      "color": "white",
+      "background": "#006400",
+      "name": "Die"
+    },
+    {
+      "id": "I",
+      "color": "white",
+      "background": "#5d4640",
+      "name": "Security Guards"
+    },
+    {
+      "id": "J",
+      "background": "#87CEFA",
+      "name": "You Are Fired!"
+    },
+    {
+      "id": "K",
+      "color": "white",
+      "background": "#0000CD",
+      "name": "Pants on Fire"
+    },
+    {
+      "id": "L",
+      "color": "white",
+      "background": "#000080",
+      "name": "Common Knowledge"
+    }
+  ]
+}

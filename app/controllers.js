@@ -1,20 +1,15 @@
 app.controller("scoreboardCtrl", function ($scope) {
-    const colorOrder = [
-        1, 49, 99, 86, 9, 10, 85, 11, 59, 5, 27, 25, 26, 58, 88, 8, 120, 69, 2, 90, 28, 150, 91, 106, 160, 29, 68, 165,
-        4, 31, 110, 32, 96, 161, 3, 103, 33, 35, 158, 166, 76, 34, 155, 80, 6, 36, 37, 38, 48, 39, 40, 41, 152, 63, 7,
-        153, 156, 42, 72, 105, 62, 87, 55, 97, 109, 43, 73, 44, 89, 24, 93, 157, 154, 54, 71, 47, 94, 104, 23, 56
-    ];
-
-    const TEAM_NAME_WIDTH = 400;
-    const SCREEN_WIDTH = 1920;
-    const SCREEN_HEIGHT = 1080;
-    const HEADING_HEIGHT = 50;
-    const NUMBER_OF_TEAMS = 13;
-    const POSITION_WIDTH = 80;
-    let TEAM_HEIGHT = (SCREEN_HEIGHT - HEADING_HEIGHT) / NUMBER_OF_TEAMS;
+    const POSITION_WIDTH = 150; // helyezés szélessége
+    const TEAM_NAME_WIDTH = 400; // csapatok neveinek szélessége
+    const SCREEN_WIDTH = 1920; // képernyő szélessége
+    const SCREEN_HEIGHT = 1080; // képernyő magassága
+    const HEADING_HEIGHT = 50; // címsor magassága
+    const NUMBER_OF_TEAMS = 10; // megjelenítendő csapatok száma
+    const TEAM_HEIGHT = (SCREEN_HEIGHT - HEADING_HEIGHT) / NUMBER_OF_TEAMS; // egy csapat magassága
+    // a státuszok színei
     const COLORS = {
         ACCEPTED: {
-            background: "#00c851",
+            background: "#00C851",
             color: "#ffffff"
         },
         REJECTED: {
@@ -26,27 +21,29 @@ app.controller("scoreboardCtrl", function ($scope) {
             color: "#ffffff"
         },
         FROZEN: {
+            highlight: '#33b5e5',
             background: "#0099cc",
             color: "#ffffff"
         },
         NOTHING: {
             background: "#242424",
             color: "#ffffff"
+        },
+        UNIDEB: {
+            background: "#004735",
+            color: "#ffffff"
         }
+    };
+    const teamStatuses = {
+        FINISHED: 'FINISHED',
+        HIGHLIGHT_STARTED: 'HIGHLIGHT_STARTED',
+        PROCESS_ENDED: 'PROCESS_ENDED',
+        ACTIVE: 'ACTIVE'
     };
 
     let teamDOM = {};
-
-    let exercises, teams, contestData, produced, actual, hidden = [];
-    let onTransition = false;
-
-    function watchVariable(name) {
-        $scope.$watch(name, function (newValue, oldValue) {
-            if (newValue !== oldValue) {
-                $scope.reInit();
-            }
-        });
-    }
+    let exercises, teams, contestData, activeTeam = -1;
+    let transitionInProgress = false;
 
     function loadExercises() {
         return fetch('data/exercises.json')
@@ -63,41 +60,87 @@ app.controller("scoreboardCtrl", function ($scope) {
             .then(response => response.json());
     }
 
+    function highlightTeam(dom) {
+        [dom.teamNameRect, dom.positionRect].forEach(element => element
+            .transition()
+            .duration(300)
+            .attr('fill', COLORS.UNIDEB.background)
+        );
+        [dom.teamNameText, dom.positionText, dom.schoolText, dom.contestantsText, dom.timeText, dom.resultsText].forEach(element => element
+            .transition()
+            .duration(300)
+            .attr('fill', COLORS.UNIDEB.color)
+        );
+    }
 
-    function setZIndexes() {
-        teams.forEach(team => {
-            teamDOM[team.name].elements.forEach(element => {
-                const newIndex = element.attr('z-index') / team.lastPosition * team.position;
-                element.attr('z-index', newIndex);
-            })
-        })
+    function unHighlightTeam(dom) {
+        [dom.teamNameRect, dom.positionRect].forEach(element => element
+            .transition()
+            .duration(300)
+            .attr('fill', '#fff')
+        );
+        [dom.teamNameText, dom.positionText, dom.schoolText, dom.contestantsText, dom.timeText, dom.resultsText].forEach(element => element
+            .transition()
+            .duration(300)
+            .attr('fill', '#000')
+        );
     }
 
     document.onkeydown = function (e) {
-        if (onTransition) {
+        if (transitionInProgress || e.code != 'ArrowRight') {
             return;
         }
-        if (e.code == 'ArrowRight') {
-            let teamIndex = -1;
-            for (let i = teams.length - 1; i >= 0; i--) {
-                if (!teams[i].finished) {
-                    teamIndex = i;
-                    break;
-                }
-            }
-            // ha már nincs módosítás
-            if (teamIndex === -1) {
-                return;
-            }
 
-            const team = teams[teamIndex];
+        let teamIndex = -1;
+        for (let i = teams.length - 1; i >= 0; i--) {
+            if (teams[i].status !== teamStatuses.FINISHED) {
+                teamIndex = i;
+                break;
+            }
+        }
+
+        // ha már nincs módosítás
+        if (teamIndex === -1) {
+            return;
+        }
+
+        const team = teams[teamIndex];
+        if (team.status === teamStatuses.ACTIVE) {
+            highlightTeam(teamDOM[team.name]);
+            team.status = teamStatuses.HIGHLIGHT_STARTED;
             const teamData = contestData[team.name];
             const unFinishedExercises = [];
-            for (let i = 0; i < exercises.length; i++) {
+            exercises.priority.forEach(i => {
                 if (!teamData.finalData[i].finished) {
                     unFinishedExercises.push(i);
                 }
+            });
+
+            if (!unFinishedExercises.length) {
+                team.status = teamStatuses.PROCESS_ENDED;
+            } else {
+                teamDOM[team.name].exercises[unFinishedExercises[0]].rect
+                    .transition()
+                    .duration(300)
+                    .attr('fill', COLORS.FROZEN.highlight);
             }
+        } else if (team.status === teamStatuses.PROCESS_ENDED) {
+            unHighlightTeam(teamDOM[team.name]);
+            team.status = teamStatuses.FINISHED;
+        } else if (team.status === teamStatuses.HIGHLIGHT_STARTED) {
+            const teamData = contestData[team.name];
+            const unFinishedExercises = [];
+            exercises.priority.forEach(i => {
+                if (!teamData.finalData[i].finished) {
+                    unFinishedExercises.push(i);
+                }
+            });
+
+            if (!unFinishedExercises.length) {
+                team.status = teamStatuses.PROCESS_ENDED;
+                return;
+            }
+
             const exerciseIndex = unFinishedExercises[0];
 
             const count = teamData.frozenData[exerciseIndex].count + teamData.finalData[exerciseIndex].count;
@@ -107,24 +150,24 @@ app.controller("scoreboardCtrl", function ($scope) {
             }
 
             teamData.finalData[exerciseIndex].finished = true;
-            if (unFinishedExercises.length === 1) {
-                teams[teamIndex].finished = true;
-            }
-
             if (teamData.finalData[exerciseIndex].status === 'ACCEPTED') {
                 team.solved++;
-                team.time += teamData.finalData[exerciseIndex].time;
+                team.time += time;
             } else if (teamData.finalData[exerciseIndex].status === 'PARTLY_ACCEPTED') {
                 team.partly_solved++;
             }
 
             sortTeams();
+            teamDOM[team.name].resultsText
+                .text(team.solved + " + " + team.partly_solved);
+            teamDOM[team.name].timeText
+                .text(Math.floor(team.time / 60) + ":" + Math.ceil(team.time % 60).pad(2));
 
-            onTransition = true;
+            teamDOM[team.name].group.raise();
+            transitionInProgress = true;
             setTimeout(function () {
-                onTransition = false;
+                transitionInProgress = false;
             }, team.position === team.lastPosition ? 1500 : 4000);
-
             if (team.lastPosition !== team.position) {
                 teamDOM[team.name].positionRect
                     .transition()
@@ -132,16 +175,15 @@ app.controller("scoreboardCtrl", function ($scope) {
                     .attr('fill', COLORS['ACCEPTED'].background)
                     .transition()
                     .duration(200)
-                    .attr('fill', "#fff")
+                    .attr('fill', COLORS.UNIDEB.background)
                     .transition()
                     .duration(200)
                     .attr('fill', COLORS['ACCEPTED'].background)
                     .transition()
                     .duration(200)
-                    .attr('fill', "#fff")
+                    .attr('fill', COLORS.UNIDEB.background)
             }
 
-            // const originalY = element.attr('y');
             teamDOM[team.name].exercises[exerciseIndex].rect
                 .transition()
                 .duration(1000)
@@ -166,8 +208,15 @@ app.controller("scoreboardCtrl", function ($scope) {
                 .text(time === 0 ? '' : Math.floor(time / 60) + ":" + Math.ceil(time % 60).pad(2));
 
             if (team.lastPosition !== team.position) {
-                setZIndexes();
-                setTimeout(rearrangeTeams, 1500);
+                setTimeout(rearrangeTeams.bind(null, team.position), 1500);
+                team.status = teamStatuses.ACTIVE;
+            } else if (unFinishedExercises.length > 1) {
+                teamDOM[team.name].exercises[unFinishedExercises[1]].rect
+                    .transition()
+                    .duration(500)
+                    .transition()
+                    .duration(300)
+                    .attr('fill', COLORS.FROZEN.highlight);
             }
         }
     }
@@ -186,7 +235,11 @@ app.controller("scoreboardCtrl", function ($scope) {
                 return a.time - b.time;
             }
 
-            console.log(b.tried + " " + a.tried)
+            const aFirstSolved = a.solved === a.frozenSolved ? a.frozenFirstAcceptedTime : a.finalFirstAcceptedTime;
+            const bFirstSolved = b.solved === b.frozenSolved ? b.frozenFirstAcceptedTime : b.finalFirstAcceptedTime;
+            if (aFirstSolved !== bFirstSolved) {
+                return aFirstSolved - bFirstSolved;
+            }
             return b.tried - a.tried;
         });
 
@@ -196,17 +249,26 @@ app.controller("scoreboardCtrl", function ($scope) {
         }
     }
 
-    function rearrangeTeams() {
+    function rearrangeTeams(selectedPosition) {
         teams.forEach(team => {
             teamDOM[team.name].positionText
                 .text(team.position + 1);
+
+            setTimeout(unHighlightTeam.bind(null, teamDOM[team.name]), 2000);
             teamDOM[team.name].elements.forEach(element => {
                     const offsetY = element.attr('y') - (HEADING_HEIGHT + team.lastPosition * TEAM_HEIGHT);
 
-                    element
-                        .transition()
-                        .duration(2000)
-                        .attr('y', HEADING_HEIGHT + team.position * TEAM_HEIGHT + offsetY);
+                    if (team.position === selectedPosition) {
+                        element
+                            .transition()
+                            .duration(1700)
+                            .attr('y', HEADING_HEIGHT + team.position * TEAM_HEIGHT + offsetY);
+                    } else {
+                        element
+                            .transition()
+                            .duration(2000)
+                            .attr('y', HEADING_HEIGHT + team.position * TEAM_HEIGHT + offsetY);
+                    }
                 }
             )
         })
@@ -228,8 +290,9 @@ app.controller("scoreboardCtrl", function ($scope) {
 
                 // csapatok előfeldolgozása
                 teams.forEach(team => {
-                    team.finished = true;
+                    team.status = teamStatuses.ACTIVE;
                     team.solved = 0;
+                    team.frozenSolved = 0;
                     team.partly_solved = 0;
                     team.time = 0;
                     team.tried = 0;
@@ -237,8 +300,9 @@ app.controller("scoreboardCtrl", function ($scope) {
                     contestData[team.name].frozenData.forEach(exercise => {
                         if (exercise.status === 'ACCEPTED') {
                             team.solved++;
+                            team.frozenSolved++;
                             team.time += exercise.time;
-                        } else if (exercise.status === 'PARTLY_SOLVED') {
+                        } else if (exercise.status === 'PARTLY_ACCEPTED') {
                             team.partly_solved++;
                         }
 
@@ -249,7 +313,6 @@ app.controller("scoreboardCtrl", function ($scope) {
 
                     contestData[team.name].finalData.forEach(exercise => {
                         if (exercise.count != 0) {
-                            team.finished = false;
                             exercise.finished = false;
                         } else {
                             exercise.finished = true;
@@ -288,7 +351,7 @@ app.controller("scoreboardCtrl", function ($scope) {
             .attr('height', HEADING_HEIGHT)
             .attr('stroke', '#000')
             .style('stroke-width', 2)
-            .attr('fill', "#fff");
+            .attr('fill', COLORS.UNIDEB.background);
 
         // pozíció szövege
         container.append('text')
@@ -297,7 +360,7 @@ app.controller("scoreboardCtrl", function ($scope) {
             .attr('alignment-baseline', 'middle')
             .attr('text-anchor', 'middle')
             .attr('font-size', HEADING_HEIGHT / 2)
-            .attr('fill', '#1a1a1a')
+            .attr('fill', COLORS.UNIDEB.color)
             .text('#');
 
         // csapatnév téglalapja
@@ -308,7 +371,7 @@ app.controller("scoreboardCtrl", function ($scope) {
             .attr('height', HEADING_HEIGHT)
             .attr('stroke', '#000')
             .style('stroke-width', 2)
-            .attr('fill', "#fff");
+            .attr('fill', COLORS.UNIDEB.background);
 
         // csapatnév szövege
         container.append('text')
@@ -317,20 +380,20 @@ app.controller("scoreboardCtrl", function ($scope) {
             .attr('alignment-baseline', 'middle')
             .attr('text-anchor', 'middle')
             .attr('font-size', HEADING_HEIGHT / 2)
-            .attr('fill', '#1a1a1a')
+            .attr('fill', COLORS.UNIDEB.color)
             .text('Csapatnév');
 
-        const exerciseWidth = (SCREEN_WIDTH - TEAM_NAME_WIDTH - POSITION_WIDTH) / exercises.length;
+        const exerciseWidth = (SCREEN_WIDTH - TEAM_NAME_WIDTH - POSITION_WIDTH) / exercises.data.length;
 
         let offsetX = TEAM_NAME_WIDTH + POSITION_WIDTH;
-        exercises.forEach(exercise => {
+        exercises.data.forEach(exercise => {
             drawExerciseHeading(exercise, offsetX, exerciseWidth, container);
             offsetX += exerciseWidth;
         });
     }
 
     function drawScoreboard() {
-        const exerciseWidth = (SCREEN_WIDTH - TEAM_NAME_WIDTH - POSITION_WIDTH) / exercises.length;
+        const exerciseWidth = (SCREEN_WIDTH - TEAM_NAME_WIDTH - POSITION_WIDTH) / exercises.data.length;
         const totalHeight = ((SCREEN_HEIGHT - HEADING_HEIGHT) / NUMBER_OF_TEAMS) * teams.length;
         const container = d3.select("#scoreboard-body")
             .append("svg")
@@ -355,11 +418,13 @@ app.controller("scoreboardCtrl", function ($scope) {
     }
 
     function drawTeam(team, offsetY, teamHeight, exerciseWidth, container) {
+        const group = container.append("g");
         const elements = [];
         const teamDomEntry = {};
+        teamDomEntry.group = group;
 
         // pozíció téglalapja
-        const positionRect = container.append('rect')
+        const positionRect = group.append('rect')
             .attr('x', 0)
             .attr('y', offsetY)
             .attr('width', POSITION_WIDTH)
@@ -372,9 +437,9 @@ app.controller("scoreboardCtrl", function ($scope) {
         teamDomEntry.positionRect = positionRect;
 
         // pozíció szövege
-        const positionText = container.append('text')
+        const positionText = group.append('text')
             .attr('x', POSITION_WIDTH / 2)
-            .attr('y', offsetY + teamHeight / 2)
+            .attr('y', offsetY + HEADING_HEIGHT / 2)
             .attr('alignment-baseline', 'middle')
             .attr('text-anchor', 'middle')
             .attr('font-size', HEADING_HEIGHT / 2)
@@ -383,45 +448,81 @@ app.controller("scoreboardCtrl", function ($scope) {
         elements.push(positionText);
         teamDomEntry.positionText = positionText;
 
+        const resultsText = group.append('text')
+            .attr('x', POSITION_WIDTH / 2)
+            .attr('y', offsetY + HEADING_HEIGHT * 1.2)
+            .attr('alignment-baseline', 'middle')
+            .attr('text-anchor', 'middle')
+            .attr('font-size', HEADING_HEIGHT / 3)
+            .attr('fill', '#1a1a1a')
+            .text(team.solved + " + " + team.partly_solved);
+        elements.push(resultsText);
+        teamDomEntry.resultsText = resultsText;
+
+        const timeText = group.append('text')
+            .attr('x', POSITION_WIDTH / 2)
+            .attr('y', offsetY + HEADING_HEIGHT * 1.6)
+            .attr('alignment-baseline', 'middle')
+            .attr('text-anchor', 'middle')
+            .attr('font-size', HEADING_HEIGHT / 3)
+            .attr('fill', '#1a1a1a')
+            .text(Math.floor(team.time / 60) + ':' + Math.ceil(team.time % 60).pad(2));
+        elements.push(timeText);
+        teamDomEntry.timeText = timeText;
+
         // téglalap
-        elements.push(
-            container.append('rect')
-                .attr('x', POSITION_WIDTH)
-                .attr('y', offsetY)
-                .attr('width', TEAM_NAME_WIDTH)
-                .attr('height', teamHeight)
-                .attr('stroke', '#000')
-                .style('stroke-width', 2)
-                .attr('fill', "#fff")
-        );
-        // csapatnév
-        elements.push(
-            container.append('text')
-                .attr('x', POSITION_WIDTH + TEAM_NAME_WIDTH / 2)
-                .attr('y', offsetY + teamHeight / 2 - HEADING_HEIGHT / 4)
-                .attr('alignment-baseline', 'middle')
-                .attr('text-anchor', 'middle')
-                .attr('font-size', HEADING_HEIGHT / 2)
-                .attr('fill', '#1a1a1a')
-                .text(team.name)
-        );
+        const teamNameRect = group.append('rect')
+            .attr('x', POSITION_WIDTH)
+            .attr('y', offsetY)
+            .attr('width', TEAM_NAME_WIDTH)
+            .attr('height', teamHeight)
+            .attr('stroke', '#000')
+            .style('stroke-width', 2)
+            .attr('fill', "#fff");
+        elements.push(teamNameRect);
+        teamDomEntry.teamNameRect = teamNameRect;
+
 
         // csapatnév
-        elements.push(
-            container.append('text')
-                .attr('x', POSITION_WIDTH + TEAM_NAME_WIDTH / 2)
-                .attr('y', offsetY + teamHeight / 2 + HEADING_HEIGHT / 3)
-                .attr('alignment-baseline', 'middle')
-                .attr('text-anchor', 'middle')
-                .attr('font-size', HEADING_HEIGHT / 3)
-                .attr('fill', '#1a1a1a')
-                .text(team.school)
-        );
+        const teamNameText = group.append('text')
+            .attr('x', POSITION_WIDTH + TEAM_NAME_WIDTH / 2)
+            .attr('y', offsetY + HEADING_HEIGHT / 2)
+            .attr('alignment-baseline', 'middle')
+            .attr('text-anchor', 'middle')
+            .attr('font-size', HEADING_HEIGHT / 2)
+            .attr('fill', '#1a1a1a')
+            .text(team.name);
+        elements.push(teamNameText);
+        teamDomEntry.teamNameText = teamNameText;
+
+        // csapatnév
+        const schoolText = group.append('text')
+            .attr('x', POSITION_WIDTH + TEAM_NAME_WIDTH / 2)
+            .attr('y', offsetY + HEADING_HEIGHT * 1.2)
+            .attr('alignment-baseline', 'middle')
+            .attr('text-anchor', 'middle')
+            .attr('font-size', HEADING_HEIGHT / 3)
+            .attr('fill', '#1a1a1a')
+            .text(team.school);
+        elements.push(schoolText);
+        teamDomEntry.schoolText = schoolText;
+
+        // csapatnév
+        const contestantsText = group.append('text')
+            .attr('x', POSITION_WIDTH + TEAM_NAME_WIDTH / 2)
+            .attr('y', offsetY + HEADING_HEIGHT * 1.6)
+            .attr('alignment-baseline', 'middle')
+            .attr('text-anchor', 'middle')
+            .attr('font-size', HEADING_HEIGHT / 3)
+            .attr('fill', '#1a1a1a')
+            .text(team.contestants ? team.contestants.join(', ') : '');
+        elements.push(contestantsText);
+        teamDomEntry.contestantsText = contestantsText;
 
 
         let offsetX = TEAM_NAME_WIDTH + POSITION_WIDTH;
         teamDomEntry.exercises = [];
-        for (let i = 0; i < exercises.length; i++) {
+        for (let i = 0; i < exercises.data.length; i++) {
             let exerciseDOM = {};
             exerciseDOM.elements = [];
 
@@ -437,7 +538,7 @@ app.controller("scoreboardCtrl", function ($scope) {
 
             const statuses = ['ACCEPTED', 'REJECTED', 'PARTLY_ACCEPTED', 'FROZEN', 'EMPTY'];
             const color = COLORS[frozen ? 'FROZEN' : frozenData[i].status];
-            let rect = container.append('rect')
+            const rect = group.append('rect')
                 .attr('x', offsetX)
                 .attr('y', offsetY)
                 .attr('width', exerciseWidth)
@@ -446,24 +547,11 @@ app.controller("scoreboardCtrl", function ($scope) {
                 .style('stroke-width', 2)
                 .attr('fill', color.background);
 
-            /*
-            rect.on("click", function () {
-                rect.transition()
-                    .duration(0)
-                    .transition()
-                    .duration(1000)
-                    .style("fill", COLORS[statuses[Math.floor(Math.random() * statuses.length)]])
-                //   .duration(50000)
-                //  .ease("linear")
-                //  .attr('x', 0); // TODO YESS!!
-            });
-             */
             elements.push(rect)
             exerciseDOM.elements.push(rect);
             exerciseDOM.rect = rect;
 
-
-            const countText = container.append('text')
+            const countText = group.append('text')
                 .attr('x', offsetX + exerciseWidth / 2)
                 .attr('y', offsetY + teamHeight / 2 - HEADING_HEIGHT / 4)
                 .attr('alignment-baseline', 'middle')
@@ -475,8 +563,7 @@ app.controller("scoreboardCtrl", function ($scope) {
             exerciseDOM.elements.push(countText);
             exerciseDOM.count = countText;
 
-
-            const timeText = container.append('text')
+            const timeText = group.append('text')
                 .attr('x', offsetX + exerciseWidth / 2)
                 .attr('y', offsetY + teamHeight / 2 + HEADING_HEIGHT / 4)
                 .attr('alignment-baseline', 'middle')
@@ -496,8 +583,16 @@ app.controller("scoreboardCtrl", function ($scope) {
         teamDOM[team.name] = teamDomEntry;
     }
 
+    /**
+     * Egy feladat fejlécét rajzoló függvény.
+     * @param exercise a feladat
+     * @param offsetX az offset
+     * @param size a szélesség
+     * @param container szülő
+     */
     function drawExerciseHeading(exercise, offsetX, size, container) {
-        let rect = container.append('rect')
+        // téglalap
+        container.append('rect')
             .attr('x', offsetX)
             .attr('y', 0)
             .attr('width', size)
@@ -506,7 +601,8 @@ app.controller("scoreboardCtrl", function ($scope) {
             .style('stroke-width', 2)
             .attr('fill', exercise.background);
 
-        let text = container.append('text')
+        // betűjel
+        container.append('text')
             .attr('x', offsetX + size / 2)
             .attr('y', HEADING_HEIGHT / 2)
             .attr('alignment-baseline', 'middle')
